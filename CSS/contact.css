@@ -1,0 +1,99 @@
+.contact-form{
+    margin-top: 100px;
+    width: 90vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.contact-form .ct01,.ct02{
+    width: 50%;
+}
+.ct01 p{
+    font-size: 16px;
+    color: #be0000;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.ct01 .title{
+    font-size: 50px;
+    color: #171d4e;
+    padding-right: 30px;
+}
+.ct01 p.title-detail{
+    color: gray;
+    padding-top: 10px;
+    font-weight: 200;
+}
+.thongtin{
+    margin-top: 30px;
+}
+.thongtin .icon-ct{
+    padding:5px 0px;
+}
+.thongtin .icon-ct i{
+    color: #be0000;
+    margin-right: 10px;
+}
+.thongtin .icon-ct span{
+    color:#171d4e;
+    font-size: 16px;
+}
+
+.ct02 form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ct02 form .ct-f{
+    width: 45%;
+    display: flex;
+    padding: 20px 0px ;
+    border-bottom: 1px solid #171d4e;
+    margin: 10px;
+}
+.ct-f input{
+    width: 100%;
+    outline: none;
+    border: 0px;
+    font-size: 16px;
+
+}
+.ct02 form .ct-f i{
+    margin-right: 10px;
+}
+.ct-f ::placeholder{
+    font-size: 16px;
+}
+.ct02 textarea{
+    border: 0px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 30px;
+    border-bottom: 1px solid #171d4e;
+}
+.ct02 .write{
+    width: 100%;
+    margin-top: 30px;
+   padding: 10px;
+}
+.ct02 .write i{
+    position: absolute;
+}
+.ct02 .buton{
+    padding: 10px 20px;
+    background-color: #be0000;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ct02 .check{
+    width: 100%;
+    margin: 20px 0px 0px 10px;
+}
+.ct02 .check a{
+    color: #be0000;
+}
