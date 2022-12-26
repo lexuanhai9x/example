@@ -97,3 +97,30 @@
 .ct02 .check a{
     color: #be0000;
 }
+
+/* //map  */
+.map{
+    width: 100vw;
+    height: 50vh;
+}
+.gmap_canvas{
+   width: 100vw!important;
+    height: 50vh!important;
+}
+.mapouter{
+    width: 100vw!important;
+    height: 50vh!important;
+}
+.title-ct{
+    width: 100%;
+    text-align: CENTER;
+    font-size: 60px;
+    padding: 40px;
+    color: #171d4e;
+}
+.title-ct span{
+    font-size: 30px;
+    font-style: italic;
+    border-bottom: 3px solid #171d4e;
+    padding-bottom: 10px;
+}
