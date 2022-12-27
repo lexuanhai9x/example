@@ -1,200 +1,82 @@
-
 footer{
-    position: relative;
     width: 100%;
-    height: auto;
-    padding: 50px 100px;
-    background:#171d4e;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: -100px;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    font-size: 16px;
 }
-footer .container{
-    width: 100vw;
+footer .logo-footer{
+    width: 25%;
+}
+footer .logo-footer img{
+    width: 100%;
+}
+footer .nav-f{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
+    margin-top: 30px;
 }
-
-footer .container .noi-dung{
-    margin-right: 30px;
-}
-footer .container .noi-dung.about{
-    width:40%;
-}
-footer .container .noi-dung.about h2{
-    position: relative;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-footer .container .noi-dung.about h2:before{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 50px;
-    height: 2px;
-    background: white;
-}
-footer .container .noi-dung.about p{
-    color: #999;
-}
-
-.social-icon{
-    margin-top: 20px;
-    display: flex;
-}
-.social-icon li {
+footer .nav-f li{
     list-style: none;
+    margin: 0px 6px;
+    padding: 0px 10px;
 }
-.social-icon li a{
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: #171d4e;
+footer .nav-f li a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #171d4e;
+    padding: 5px 0px;
+    position: relative;
+}
+footer .nav-f li a::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #171d4e;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform-origin: left;
+    transform: scale(0%, 100%);
+    transition: 0.5s;
+}
+footer .nav-f li:hover a::after{
+    transform: scale(100%, 100%);
+}
+footer .icon-foot{
+   display: flex;
+   margin-top: 30px;
+   
+}
+footer .icon-foot .icon-f {
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    text-decoration: none;
-    border-radius: 4px;
-    border: 1px solid #5e5e5e;
-}
-.social-icon li a:hover{
-    background: #f00;
-}
-.social-icon li a .fa{
-    color: #fff;
-    font-size: 20px;
-}
-.links h2{
-    position: relative;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.links h2{
-    position: relative;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.links h2::before{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 50px;
-    height: 2px;
-    background: white;
-}
-.links{
-   position: relative;
-   width: 25%;
-}
-.links ul li{
-    list-style: none;
-}
-.links ul li a{
-    color: white;
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: inline-block;
-    transition: 0.5s;
-}
-.links ul li a:hover{
-    border-bottom: 1px solid white;
-}
-.contact2 h2{
-    position: relative;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.contact2 h2::before{
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 50px;
-    height: 2px;
-    background: white;
-}
-.contact2{
-    width: calc(35% - 60px);
-    margin-right: 0 !important;
-}
-.contact2 .info{
-    position: relative;
-}
-.contact2 .info li{
-    display: flex;
-    margin-bottom: 16px;
-}
-.contact2 .info li span:nth-child(1) {
-    color: #fff;
-    font-size: 20px;
-    margin-right: 10px;
-}
-.contact2 .info li span{
-    color: white;
-}
-.contact2 .info li a{
-    color: white;
-    text-decoration: none;
-}
-.btn {
-    display: inline-block;
-    background: transparent;
-    color: inherit;
-    font: inherit;
-    border: 0;
-    outline: 0;
-    padding: 0;
-    margin-top:16px;
-    transition: all 200ms ease-in;
+    border-radius: 50%;
+    border: 1px solid #c4c7db;
+    margin: 0px 10px;
     cursor: pointer;
 }
-.btn--primary {
-    background: #be3333;
-    color: #fff;
-    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
-    border-radius: 2px;
-    padding: 8px 24px;
+footer .icon-foot .icon-f:hover i{
+    color: #be0000;
 }
-.btn--primary:hover {
-    background: #f00;
+footer i{
+    transition: 0.5s;
 }
-.btn--primary:active {
-    background: #f00;
-    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+.foot-end{
+    padding: 30px;
+    border-top: 1px solid gray;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }
-.form__field {
-    width: 90%;
-    background: #fff;
-    color: #a3a3a3;
-    font: inherit;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
-    border: 0;
-    outline: 0;
-    padding: 8px 4px;
+.foot-end span{
+    color: gray;
 }
-
-@media  (max-width: 768px){
-    footer{
-        padding: 40px;
-             }
-    footer .container{
-        flex-direction: column;
-    }
-    footer .container .noi-dung{
-        margin-right: 0;
-        margin-bottom: 40px;
-    }
-    footer .container,.noi-dung.about, .links, .contact2{
-        width: 100%;
-    }
+.foot-end a{
+    color: #171d4e;
+    text-decoration: none;
 }
