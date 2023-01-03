@@ -35,3 +35,18 @@ popup_si.addEventListener('click',()=>{
 popup_sx.addEventListener('click',()=>{
     popup_sct.classList.remove('active')
 })
+
+//mobile
+const menu_mb = document.querySelector(".x-mb");
+const nav_mb = document.querySelector(".header-mobile");
+const icon_nav_mb = document.querySelector(".icon-menu-mb");
+console.log(menu_mb);
+console.log(menu_mb);
+icon_nav_mb.addEventListener("click",()=>{
+    nav_mb.classList.add("active");
+});
+
+menu_mb.addEventListener("click",()=>{
+    nav_mb.classList.remove("active");
+});
+ 

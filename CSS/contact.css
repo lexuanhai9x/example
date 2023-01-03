@@ -1,9 +1,6 @@
 .contact-form{
-    margin-top: 100px;
-    width: 90vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 100px auto 0px auto;
+    max-width: 1200px;
     display: flex;
     justify-content: space-around;
     padding-bottom: 50px;

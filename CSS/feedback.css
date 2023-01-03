@@ -1,0 +1,95 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.fb-main{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper {
+    width: 700px;
+    background: #FFF;
+    border-radius:  10px;
+    box-shadow: 0 25px 70px rgba(0,0,0,.05);
+    overflow: hidden;
+  }
+  
+  h1.title {
+    padding: 15px 0;
+    margin-left: 25px;
+    font-weight: normal;
+    color: #171d4e;
+  }
+  
+  .form {
+    width: 700px;
+  }
+  
+  .myform {
+    background: #F4F5F7;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px
+  }
+  
+  .myform label {
+    display: block;
+    color: #A8AAC5;
+    font-weight: bold;
+    font-size: .8rem;
+    margin-bottom: 10px;
+  }
+  
+  .myform input,textarea {
+    border: 0;
+    outline: 0;
+    height: 50px;
+    background: #FFF;
+    width: 100%;
+    border-radius: 5px;
+    color: #171d4e;
+    font-weight: 700;
+    font-size: .9rem;
+    text-indent: 15px;
+    border: 2px solid transparent;
+    transition: border 250ms;
+  }
+  
+  .full-width {
+    grid-column: -1 / 1
+  }
+  
+  .button {
+    grid-column: -1 / 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button button {
+    border: 0;
+    outline: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: .9rem;
+    cursor: pointer;
+    background: linear-gradient(356deg, #171d4e 0%, rgb(49, 9, 143) 100%);
+  }
+  
+  .button button:hover {
+    background: #171d4e;
+  }
+  
