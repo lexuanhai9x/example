@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
 .title-home{
     font-size: 4rem;
     color: #171d4e;
@@ -137,7 +141,7 @@
     background-color: #edfaff;
     padding: 30px;
     position: sticky;
-    /* height: 100vh; */
+    height: 50vh;
 }
 .pr-right .right-title{
     color: #171d4e;
@@ -194,4 +198,20 @@
 }
 .tag-pr .t1:hover{
     color: #be0000; 
+}
+.trang{
+   display: flex;
+   max-width: 1200px;
+   margin: auto;
+}
+.trang .trang-d{
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    margin: 0px 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.trang .trang-d:hover{
+   color: #be0000; 
 }

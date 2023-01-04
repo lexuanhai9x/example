@@ -354,7 +354,7 @@ width: 30%;
      font-size: 14px;
     }
     .icon-menu-mb{
-     display: none;
+     display: none!important;
  }
  }
 @media only screen and (max-width: 1200px) {
