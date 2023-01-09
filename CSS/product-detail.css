@@ -1,0 +1,263 @@
+body{
+    font-family: 'Playfair Display', serif!important;
+    width: 100vw;
+    overflow-x:hidden!important ;
+}
+.nail-product{
+    max-width: 1200px;
+    display: flex;
+    margin: 100px auto;
+}
+.nail-product .left{
+    width: 60%;
+    padding: 0px 20px;
+}
+.nail-product .left .product-image{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.p-im{
+    width: 48%;
+    margin: 5px;
+}
+.p-im img{
+    width: 100%;
+}
+.right{
+    width: 40%;
+    padding: 10px 0px;
+}
+.pr-detail{
+    display: flex;
+    flex-direction: column;
+}
+.pr-detail .title{
+    font-size: 3rem;
+    color: #171d4e;
+}
+.pr-detail .title-p{
+    color: gray;
+    padding: 10px 0px;
+}
+.pr-detail .color{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #171d4e;
+}
+.pr-detail .color img{
+    width: 30px;
+    margin-top: 20px;
+}
+.pr-detail form{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pr-detail form input[type="number"]{
+    display: inline;
+    width: 40px;
+    text-align: center;
+    outline: none;
+    border: 0px;
+    background-color: rgb(219, 219, 219);
+    padding: 5px 5px;
+    font-weight: bold;
+}
+.pr-detail form input[type="button"]{
+    padding: 5px;
+    outline: none;
+    border: 0px;
+    background-color: #171d4e;
+    color: white;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif
+}
+.tabContainer{
+    width: 100%;
+}
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    
+}
+.buttonContainer button{
+    width: calc(100%/3);
+    border: 0px;
+    padding: 15px 0px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif
+}
+.tabPanel{
+    width: 100%;
+    border: 1px solid gray;
+    
+}
+.tabPanel ul{
+    
+width: 90%;
+    
+padding: 0px 0px 20px 20px;
+}
+.tabPanel ul li{
+    width: 100%;
+    list-style: number;
+    margin-top: 30px;
+    color: gray;
+    font-size: 1rem;
+}
+.buy{
+    padding: 5px 10px!important;
+    background-color: gray!important;
+}
+.buy:hover{
+    background-color: #171d4e!important;
+}
+.social-pr-dt{
+    padding: 10px 0px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+.social-pr-dt a{
+    color: #171d4e;
+    padding: 10px;
+}
+.social-pr-dt span{
+    margin-left: 10px;
+}
+.social-pr-dt a:hover{
+    color: #be0000;
+}
+/* /// bottom,  */
+.product{
+    width: 100vw;
+    padding: 50px 0px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+}
+.content-pr{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+.content-pr img{
+    width: 100%;
+}
+.content-pr .more-img{
+   width:40%;
+   margin-right: 10px;
+}
+.content-pr .span{
+    width: 20%;
+    font-size: 1.5rem;
+    color: gray;
+    margin-right: 10px;
+}
+.tutorial{
+    max-width: 1200px;
+    margin:50px auto;
+}
+
+.tutorial .k1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tutorial .k1 img{
+    width: 50%;
+}
+.tutorial .k1 .content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+}
+.c-01{
+    order: 2;
+}
+.c-02{
+    order: 1;
+}
+.tutorial .title{
+    font-size: 2rem;
+    color: #171d4e;
+    padding: 0% 10%;
+}
+.tutorial .title-p{
+    padding: 20px 10%;
+    font-size: 1rem;
+    color: gray;
+}
+.tutorial a{
+    color: #171d4e;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #171d4e;
+}
+
+@media only screen and (max-width:1200px) {
+    .nail-product{
+        flex-wrap: wrap;
+    }
+   .nail-product .left{
+    order: 1;
+    width: 100%;
+    padding: 0;
+   }
+   .nail-product .right{
+    order: 2;
+    width: 100%;
+    margin-left: 10px;
+   }
+   .tabContainer{
+    width: 90%;
+   }
+   .social-pr-dt{
+    width: 90%;
+   }
+   .content-pr{
+    width: 100%;
+    justify-content: center;
+   }
+   .content-pr .span{
+    margin: 0;
+   }
+   .content-pr .more-img{
+    margin: 0;
+    width: 30%;
+   }
+   .product{
+    padding: 50px 0px;
+   }
+   .tutorial .k1 img{
+    width: 100%;
+}
+.tutorial .k1 .content{
+    width: 100%;
+    padding: 50px 0px;
+}
+.c-01{
+    order: 1;
+}
+.c-02{
+    order: 2;
+}
+.tabPanel ul{
+    width: 90%;
+    padding: 10px;
+}
+.tabPanel li{
+    list-style: none!important;
+    font-size: 1rem!important;
+};
+}

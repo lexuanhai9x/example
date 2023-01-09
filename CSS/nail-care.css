@@ -1,0 +1,118 @@
+* {
+    box-sizing: boder-box;
+}
+body {
+    margin: 0;
+}
+#main {
+    position: relative;
+    z-index: 20;
+    background: #fff;
+    transition: transform 0.6s ease;
+}
+@media (min-width: 640px) {
+    #main {
+        padding: 1em;
+   }
+}
+.fake-section {
+    background: #eee;
+    height: 300px;
+}
+.tiles-a {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.tiles-a ul {
+    margin: 0;
+    padding: 0;
+}
+.tiles-a li {
+    list-style: none;
+}
+@media (min-width: 640px) {
+    .tiles-a li {
+        float: left;
+        width: 33.33%;
+   }
+}
+.tiles-a a {
+    margin: 1em;
+    display: block;
+    background: #222;
+    padding-top: 73%;
+    height: 0;
+}
+#aside {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: #eee;
+    overflow-y: scroll;
+    z-index: 10;
+}
+#aside img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+#aside .wrapper {
+    padding: 1rem 0px;
+}
+#aside .close {
+    width: 25px;
+    display: block;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 50%;
+}
+.show-detail {
+    overflow: hidden;
+}
+.show-detail #main {
+    transform: translateX(-60%);
+}
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+.text-copy.wrapper{
+    width: 100%;
+}
+.text-copy.wrapper ul{
+    width: 100%;
+    margin: 0;
+    padding-bottom: 100px;
+}
+.text-copy.wrapper li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.text-copy.wrapper li .number{
+    width: 30px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #171d4e;
+}
+.text-copy.wrapper li .text{
+    font-size: 1rem;
+    color: gray;
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+}

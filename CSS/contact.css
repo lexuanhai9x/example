@@ -120,3 +120,13 @@
     border-bottom: 3px solid #171d4e;
     padding-bottom: 10px;
 }
+@media only screen and (max-width:700px) {
+    .contact-form{
+        flex-direction: column;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .contact-form .ct01, .ct02{
+        width: 100%;
+    }
+}

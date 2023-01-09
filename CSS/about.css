@@ -237,6 +237,10 @@ a.current_dot {
 	transform: scale(1.4);
 }
 @media screen and (max-width: 700px) {
+    .intro{
+        flex-direction: column;
+        height: 600px;
+    }
 	.intro .left {
 		width: 100%;
 		height: 30%;
@@ -245,4 +249,24 @@ a.current_dot {
 		width: 100%;
 		height: 70%;
 	}
+    .head-about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .head-about .left{
+        display: none;
+    }
+    .head-about .right{
+        width: 90%;
+    }
+    .about-body{
+       flex-direction: column;
+       align-items: center;
+    }
+    .about-body .ab-left{
+        width: 90%;
+    }
+    .about-body .ab-right{
+        width: 90%;
+    }
 }

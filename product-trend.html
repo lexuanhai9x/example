@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./CSS/header.css">
     <link rel="stylesheet" href="./CSS/footer.css">
     <script src="https://kit.fontawesome.com/d57f3ece32.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
     <title>Product</title>
 </head>
 <body>
@@ -24,20 +26,20 @@
                 
             <li><a href="product-trend.html">Nail Trends</a>
                 <ul class="sub-menu">
-                    <li><a href="">Winter Nail Trends</a></li>
-                    <li><a href="">spring Nail Trends</a></li>
-                    <li><a href="">Holiday Party Nails</a></li>
-                    <li><a href="">Wedding Nails</a></li>
-                    <li><a href="">Vacation Nails</a></li>
+                    <li><a href="product-trend.html">Winter Nail Trends</a></li>
+                    <li><a href="product-trend.html">spring Nail Trends</a></li>
+                    <li><a href="product-trend.html">Holiday Party Nails</a></li>
+                    <li><a href="product-trend.html">Wedding Nails</a></li>
+                    <li><a href="product-trend.html">Vacation Nails</a></li>
                 </ul>
             </li>
             <li><a href="product.html">Nail Product</a>
                 <ul class="sub-menu">
-                    <li><a href="">Nail Polish</a></li>
-                    <li><a href="">Pro Tool</a></li>   
+                    <li><a href="product.html">Nail Polish</a></li>
+                      
                 </ul>
             </li>
-            <li><a href="#">Nail Care</a></li>
+            <li><a href="nail-care.html">Nail Art</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="feedback.html">Feeback</a></li>
         </ul>
@@ -98,22 +100,22 @@
             <li><a href="about.html">Abouts</a>
                 
             </li>
-            <li><a href="#">Nail Design <i class="fa-solid fa-caret-right"></i></a>
+            <li><a href="product-trend.html">Nail Trends </a>
                 <ul class="sub-menu-mb">
-                    <li><a href="">Winter Nail Trends</a></li>
-                    <li><a href="">spring Nail Trends</a></li>
-                    <li><a href="">Holiday Party Nails</a></li>
-                    <li><a href="">Wedding Nails</a></li>
-                    <li><a href="">Vacation Nails</a></li>
+                    <li><a href="product-trend.html">Winter Nail Trends</a></li>
+                    <li><a href="product-trend.html">Spring Nail Trends</a></li>
+                    <li><a href="product-trend.html">Holiday Party Nails</a></li>
+                    <li><a href="product-trend.html">Wedding Nails</a></li>
+                    <li><a href="product-trend.html">Vacation Nails</a></li>
                 </ul>
             </li>
-            <li><a href="#">Nail Product <i class="fa-solid fa-caret-right"></i></a>
+            <li><a href="product.html">Nail Product <i class="fa-solid fa-caret-right"></i></a>
                 <ul class="sub-menu-mb">
-                    <li><a href="">Nail Polish</a></li>
-                    <li><a href="">Pro Tool</a></li>   
+                    <li><a href="product.html">Nail Polish</a></li>
+                      
                 </ul>
             </li>
-            <li><a href="#">Nail Care</a></li>
+            <li><a href="nail-care.html">Nail Art</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="feedback.html">Feeback</a></li>
         </ul>
@@ -139,12 +141,126 @@
 
     <!--end  header  -->
 
-
+    
 
     <div class="product-main">
         <div class="title-home">
-            SHOP
+            Shop Trends
         </div>
+
+
+        <!-- trend  -->
+    <svg id="icons" xmlns="http://www.w3.org/2000/svg">  
+        <symbol id="icon-arrow" viewBox="0 0 476.213 476.213" >
+        <polygon fill="inherit" points="347.5,324.393 253.353,418.541 253.353,0 223.353,0 223.353,419.033 128.713,324.393 107.5,345.607 
+            238.107,476.213 368.713,345.606 "/>
+        </symbol>
+        </svg>
+        
+        
+        <div class="slider-content">
+          
+          
+          <div class="number-wrapper">
+            <div class="number-count">
+              <div class="number">01</div>
+            </div>
+          </div>
+          
+          <div class="nav-wrapper">
+            <div class="nav-arrows">
+              <div class="nav-up">
+                   <svg id="arrow-up">
+                    <use xlink:href="#icon-arrow"></use>
+                  </svg>
+               </div>
+              <div class="nav-line"></div>
+              <div class="nav-down">
+                 <svg id="arrow-down">
+                    <use xlink:href="#icon-arrow"></use>
+                  </svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="slider-wrapper">
+            <div class="slider-container">                       
+              <div class="slide active" data-order="1">
+                  <div class="slide-content txt">
+                    <div class="txt-wrapper">
+                      <span class="copy">Winter Nail Trend</span>
+                      <h2><span>Winter Nail!</span> Colors, Trends, & Nail Art</h2>
+                      <span class="subtitle">nail art</span>
+                      <p class="excerpt">Explore winter nail polish colors and inspiring winter nail art to keep your manicure on-trend this season. </p>
+                    </div>
+                  </div>
+                  <div class="slide-content img">
+                    <img src="./images/product-list/trend/01.png" alt="" />
+                  </div>
+                </div>  
+              <div class="slide" data-order="2">
+                  <div class="slide-content txt">
+                    <div class="txt-wrapper">
+                      <span class="copy">Spring Nail Trends</span>
+                      <h2><span>Spring Nail!</span> Colors, Trends, & Nail Art</h2>
+                      <span class="subtitle">nail art</span>
+                      <p class="excerpt">Explore winter nail polish colors and inspiring winter nail art to keep your manicure on-trend this season. </p>
+                    </div>
+                  </div>
+                  <div class="slide-content img">
+                    <img src="./images/product-list/trend/02.png" alt="" />
+                  </div>
+                </div>  
+
+                <div class="slide" data-order="3">
+                    <div class="slide-content txt">
+                      <div class="txt-wrapper">
+                        <span class="copy">Holiday Party Nails</span>
+                        <h2><span>Holiday Nail!</span> Colors, Trends, & Nail Art</h2>
+                        <span class="subtitle">nail art</span>
+                        <p class="excerpt">Explore winter nail polish colors and inspiring winter nail art to keep your manicure on-trend this season. </p>
+                      </div>
+                    </div>
+                    <div class="slide-content img">
+                      <img src="./images/product-list/trend/03.png" alt="" />
+                    </div>
+                  </div>  
+                  
+                  <div class="slide" data-order="4">
+                    <div class="slide-content txt">
+                      <div class="txt-wrapper">
+                        <span class="copy">NAILS BY OCCASION</span>
+                        <h2><span>Wedding Nails!</span> Shop</h2>
+                        <span class="subtitle">nail art</span>
+                        <p class="excerpt">Whether you're a bridesmaid, guest, or the bride-to-be herself, look no further for bridal nails inspiration than Nail Art Wedding Nails Shop. </p>
+                      </div>
+                    </div>
+                    <div class="slide-content img">
+                      <img src="./images/product-list/trend/04.png" alt="" />
+                    </div>
+                  </div>  
+                  
+                  <div class="slide" data-order="5">
+                    <div class="slide-content txt">
+                      <div class="txt-wrapper">
+                        <span class="copy">NAILS BY OCCASION</span>
+                        <h2><span>Vacation Nails!</span> Shop</h2>
+                        <span class="subtitle">nail art</span>
+                        <p class="excerpt">Vacations are the perfect occasion to pamper yourself. Travel in style wearing Nail Art favorite jet-setting nail polish shades. </p>
+                      </div>
+                    </div>
+                    <div class="slide-content img">
+                      <img src="./images/product-list/trend/05.png" alt="" />
+                    </div>
+                  </div>  
+          
+            </div>
+          </div>
+          
+        </div>
+
+    <!-- end trend  -->
+
         <div class="product-detail">
             <div class="pr-left">
                 <div class="check-pr">
@@ -369,7 +485,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="product.html">Shop</a></li>
-            <li><a href="nail-care.html">Nail Art</a></li>
+            <li><a href="nail.html">Nail Art</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
         <div class="icon-foot">
