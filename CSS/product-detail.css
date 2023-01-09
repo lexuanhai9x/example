@@ -204,6 +204,14 @@ padding: 0px 0px 20px 20px;
     padding-bottom: 5px;
     border-bottom: 1px solid #171d4e;
 }
+.money{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    display: flex;
+    color: #be0000;
+    font-weight: bold;
+}
 
 @media only screen and (max-width:1200px) {
     .nail-product{

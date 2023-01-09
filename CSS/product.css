@@ -589,4 +589,7 @@ body{
     .trang{
         margin-left: 20px;
     }
+	.slider-content{
+		display: none;
+	}
  }

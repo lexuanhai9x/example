@@ -63,6 +63,10 @@
 }
 .ct-f ::placeholder{
     font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea::placeholder{
+    font-family: 'Times New Roman', Times, serif;
 }
 .ct02 textarea{
     border: 0px;
@@ -93,7 +97,12 @@
 .ct02 .check a{
     color: #be0000;
 }
-
+.ct-f i{
+    color: #171d4e;
+}
+.write i{
+    color: #171d4e;
+}
 /* //map  */
 .map{
     width: 100vw;

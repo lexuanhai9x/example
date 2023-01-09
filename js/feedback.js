@@ -7,11 +7,11 @@ const lastname =  document.querySelector('#lastname');
 
 submitBtn.addEventListener('mouseover',() => {
   if(emailaddress.value === '') {
-    emailaddress.style.border = "2px solid #D02D8B";
+    emailaddress.style.border = "2px solid red";
   }
 
   if(lastname.value === '') {
-    lastname.style.border = "2px solid #D02D8B";
+    lastname.style.border = "2px solid red";
   }
 })
 
